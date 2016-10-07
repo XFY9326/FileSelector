@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="No File Now"
+		android:id="@+id/selectpath"/>
+
+	<View
+		android:layout_height="40dp"
+		android:layout_width="match_parent"/>
+
+	<Button
+		android:layout_height="70dp"
+		android:layout_width="150dp"
+		android:text="选择"
+		android:id="@+id/selectbutton"
+		android:textSize="20sp"/>
+
+</LinearLayout>
+
