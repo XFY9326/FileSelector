@@ -1,7 +1,8 @@
 # FileSelector
 Select File or Folder
 
-Using Method:
+-------------------
+- Using Method:
 
 int ResultCode = 2;
 
@@ -24,3 +25,5 @@ protected void onActivityResult (int requestCode, int resultCode, Intent data)
             //Get File Path Now
         }
 }
+
+------------------
